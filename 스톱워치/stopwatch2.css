@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    position:relative;
+    height:200px;
+    position:absolute;
+    top:35%;
+    left:45%;
+    margin-top:-25px;
+    margin-left:-50px;
+    text-align: center;
+}
+#stop_btn{
+    margin: 25px;
+    width: 90px;
+    height: 40px;
+    background-color: #EF6262;
+
+    border: none;
+    color: white;
+}
+#reset_btn{
+    width: 90px;
+    height: 40px;
+    background-color: #FCCA64;
+    border: none;
+    color: white;
+}
+#start_btn{
+    width: 90px;
+    height: 40px;
+    background-color: #4AAE71;
+    border: none;
+    color: white;
+}
+#min{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#sec{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#ten{
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
